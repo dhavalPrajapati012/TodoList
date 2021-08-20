@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-image: linear-gradient(#68E8CD, #3865A5);
+	min-height: 100vh;
+	max-width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px 20px;
+}
+
+.foot {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wish {
+	outline: none;
+	border: 1px solid #ECECEC;
+	height: 30px;
+	width: 250px;
+	border-radius: 2px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.button1 {
+	border: none;
+	outline: none;
+	height: 34px;
+	width: 35px;
+	background-color: #7B41C5;
+	border-radius: 5px;
+	opacity: 0.6;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+	color: white;
+}
+
+.button1:hover {
+	background-color: #7B41C5;
+	opacity: 1;
+}
+
+.header {
+	color: #000000;
+}
+
+.wishes {
+	background-color: #F2F2F2;
+	width: 300px;
+}
+
+.wishtext {
+	padding: 8px 5px;
+	color: #002240;
+}
+
+.reset {
+	background-color: #7B41C5;
+	border-radius: 5px;
+	height: 35px;
+	width: 90px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 540;
+	color: white;
+}
+
+.reset:hover {
+	background-color: #5f0dca;
+}
+
+.footerpara {
+	color: #59595B;
+}
+
+.border {
+	border-color: red;
+}
+
+.line {
+	text-decoration: line-through;
+}
